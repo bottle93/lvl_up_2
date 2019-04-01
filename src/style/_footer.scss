@@ -1,0 +1,22 @@
+.footer{
+  &__main {
+    margin: 10px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgba(0,0,0, 0.5);
+  }
+  &__contact {
+    &--highlighted {
+      color: rgba(0,0,0,1)
+    }
+  }
+  &__social-media-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    & * {
+      margin-right: 10px;
+    }
+  }
+}

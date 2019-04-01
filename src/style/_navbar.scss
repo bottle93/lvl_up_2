@@ -1,0 +1,17 @@
+.nav {
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__item--link {
+    text-decoration: none;
+    color: rgba(0,0,0, 0.2);
+    &:hover {
+      color: rgba(0,0,0,1);
+      border-bottom: 1px solid black;
+      transition: 0.5s all;
+    }
+  }
+}
